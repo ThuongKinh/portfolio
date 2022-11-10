@@ -1,9 +1,9 @@
-//import fs from 'fs';
+import fs from 'fs';
 var http = require('http'),
-    fs = require('fs');
+    fsa = require('fs');
 
 
-fs.readFile('./index.html', function (err, html) {
+fsa.readFile('./index.html', function (err, html) {
     if (err) {
         throw err; 
     }       
