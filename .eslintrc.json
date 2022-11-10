@@ -5,8 +5,8 @@
         "no-unused-vars":[
             "error",
             {
-                "argsIgnorePatterns":"^_",
-                "varsIgnorePatterns":"^_"
+                "argsIgnorePatterns":"^_"
+                //"varsIgnorePatterns":"^_"
             }
         ]
     }
